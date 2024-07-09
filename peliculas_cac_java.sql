@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 30-06-2024 a las 23:21:26
+-- Tiempo de generación: 09-07-2024 a las 20:13:09
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -44,8 +44,11 @@ CREATE TABLE `peliculas` (
 --
 
 INSERT INTO `peliculas` (`id_pelicula`, `titulo`, `lanzamiento`, `genero`, `duracion`, `director`, `reparto`, `sinopsis`, `imagen`) VALUES
-(1, 'Super Mario Bros', 2023, 'Acción', '3h 15m', 'Aaron Horvath, Michael Jelenic', 'Varios actores', 'En breve será agregada', 'mario.jpg'),
-(2, 'Super Mario Bros', 2023, 'Accion, aventura', '3h 5m', 'Horvath & Jelenic', 'Muchos actores', 'Laaaargaaaa', 'mario.jpg');
+(1, 'Super Mario Bros: La película', 2023, 'aventura, ficción, comedia', '1h 32m', 'Aaron Horvath, Michael Jelenic', 'Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black', 'Los hermanos Mario y Luigi comenzaron su negocio de fontanería en la ciudad Brooklyn en Nueva York. Después de ver una fuga importante en las alcantarillas en las noticias, Mario y Luigi van al subsuelo y comienzan las aventuras.', 'mario.jpg'),
+(3, 'Inside Out 2', 2024, 'acción, aventura', '2h 33m', 'Director', 'Actores', 'Teenager Riley\'s mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions!', 'Inside_Out_2.jpg'),
+(4, 'Furiosa: A Mad Max Saga', 2024, 'Acción, ficción', '2h 40m', 'No sé', 'Muchos actores', 'As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe.', 'Furiosa - A Mad Max Saga.jpg'),
+(5, 'Despicable Me 4', 2024, 'Accion, comedia', '2h 15m', 'No sé', 'Muchos actores', 'Gru and Lucy and their girls — Margo, Edith and Agnes — welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad.', 'Despicable-me-4.jpg'),
+(6, 'El Planeta de los Simios: Nuevo reino', 2024, 'acción, ficción, aventura', '2h 25m', 'Wes Wall', 'Owen Teague, Freya Allan, Peter Macon', 'Varias generaciones en el futuro, después del reinado de César, los simios son ahora la especie dominante y viven en armonía, mientras que los humanos se han visto reducidos a vivir en las sombras.', 'el-planeta-de-los-simios-nuevo-reino.jpg');
 
 --
 -- Índices para tablas volcadas
@@ -65,7 +68,7 @@ ALTER TABLE `peliculas`
 -- AUTO_INCREMENT de la tabla `peliculas`
 --
 ALTER TABLE `peliculas`
-  MODIFY `id_pelicula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_pelicula` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
